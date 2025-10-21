@@ -30,5 +30,6 @@ void loop() {
     // Print data in the serial monitor
     Serial.print(delta_time); Serial.print(", ");
     Serial.println(interaction_torque);
+    delay(100);
   }
 }
